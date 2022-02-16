@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+}
+header {
+    .hero-image{
+        background-image: linear-gradient(rgba(100, 25, 25, 0.2), rgba(240, 128, 128, 0.0)), url('../icon.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        height: 250px;
+    }
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+}
